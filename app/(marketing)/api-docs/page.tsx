@@ -5,7 +5,7 @@ import IconCard from '@/components/marketing/IconCard';
 import { REPO_URL } from '@/lib/constants';
 
 export const metadata = {
-    title: 'Architecture | OpenStock',
+    title: 'Architecture | MelmanStock',
     description: 'How OpenStock works: market data, background jobs and the AI behind the emails.',
 };
 

@@ -299,17 +299,17 @@
   },
   "Emails": {
     "common": {
-      "logoAlt": "Logo OpenStock",
+      "logoAlt": "Logo MelmanStock",
       "unsubscribe": "Wypisz się",
-      "visitOpenstock": "Odwiedź OpenStock"
+      "visitOpenstock": "Odwiedź MelmanStock"
     },
     "welcome": {
-      "subject": "Witaj w OpenStock – twoim zestawie narzędzi open source do obsługi rynku akcji!",
-      "text": "Dzięki za dołączenie do OpenStock, inicjatywy stowarzyszenia Open Dev Society",
-      "title": "Witaj w OpenStock",
-      "dashboardAlt": "Podgląd pulpitu OpenStock",
+      "subject": "Witaj w MelmanStock – twoim zestawie narzędzi open source do obsługi rynku akcji!",
+      "text": "Dzięki za dołączenie do MelmanStock, inicjatywy stowarzyszenia Open Dev Society",
+      "title": "Witaj w MelmanStock",
+      "dashboardAlt": "Podgląd pulpitu MelmanStock",
       "heading": "Witaj na pokładzie, {name}",
-      "fallbackIntro": "Dzięki za dołączenie do OpenStock. Masz teraz narzędzia do śledzenia rynków i podejmowania mądrzejszych decyzji.",
+      "fallbackIntro": "Dzięki za dołączenie do MelmanStock. Masz teraz narzędzia do śledzenia rynków i podejmowania mądrzejszych decyzji.",
       "featuresLabel": "Oto, co możesz zrobić już teraz:",
       "featureWatchlist": "Skonfiguruj swoją listę obserwowanych, żeby śledzić ulubione akcje",
       "featureSearch": "Wyszukaj dowolną akcję za pomocą ⌘K i otwórz ją w nowej karcie",
@@ -319,11 +319,11 @@
       "initiative": "Inicjatywa Open Dev Society"
     },
     "resetPassword": {
-      "subject": "Zresetuj hasło do OpenStock",
+      "subject": "Zresetuj hasło do MelmanStock",
       "heading": "Zresetuj hasło",
       "greeting": "Cześć, {name},",
       "greetingNoName": "Cześć,",
-      "body": "Otrzymaliśmy prośbę o zresetowanie twojego hasła do OpenStock. Skorzystaj z przycisku poniżej, żeby wybrać nowe.",
+      "body": "Otrzymaliśmy prośbę o zresetowanie twojego hasła do MelmanStock. Skorzystaj z przycisku poniżej, żeby wybrać nowe.",
       "cta": "Zresetuj hasło",
       "ignore": "Jeśli to nie ty prosisz o zmianę hasła, możesz zignorować tę wiadomość.",
       "text": "Zresetuj hasło: {url}"
@@ -348,11 +348,11 @@
       "calloutTitleBelow": "Cena spadła",
       "calloutBodyBelow": "{symbol} spadł poniżej twojej ceny docelowej. To może być dobry moment na zakup.",
       "cta": "Zobacz pulpit",
-      "footer": "Dostajesz tę wiadomość, bo masz włączone alerty w OpenStock."
+      "footer": "Dostajesz tę wiadomość, bo masz włączone alerty w MelmanStock."
     }
   },
   "Sidebar": {
-    "homeAria": "OpenStock — strona główna",
+    "homeAria": "MelmanStock — strona główna",
     "searchStocks": "Szukaj akcji",
     "overview": "Przegląd",
     "watchlist": "Lista obserwowanych",

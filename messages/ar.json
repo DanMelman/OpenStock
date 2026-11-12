@@ -299,17 +299,17 @@
   },
   "Emails": {
     "common": {
-      "logoAlt": "شعار OpenStock",
+      "logoAlt": "شعار MelmanStock",
       "unsubscribe": "إلغاء الاشتراك",
-      "visitOpenstock": "زر OpenStock"
+      "visitOpenstock": "زر MelmanStock"
     },
     "welcome": {
-      "subject": "أهلًا بك في OpenStock، أدواتك مفتوحة المصدر لسوق الأسهم!",
-      "text": "شكرًا لانضمامك إلى OpenStock، مبادرة من Open Dev Society",
-      "title": "أهلًا بك في OpenStock",
-      "dashboardAlt": "معاينة لوحة OpenStock",
+      "subject": "أهلًا بك في MelmanStock، أدواتك مفتوحة المصدر لسوق الأسهم!",
+      "text": "شكرًا لانضمامك إلى MelmanStock، مبادرة من Open Dev Society",
+      "title": "أهلًا بك في MelmanStock",
+      "dashboardAlt": "معاينة لوحة MelmanStock",
       "heading": "أهلًا بك {name}",
-      "fallbackIntro": "شكرًا لانضمامك إلى OpenStock. أصبحت لديك الأدوات لمتابعة الأسواق واتخاذ قرارات أذكى.",
+      "fallbackIntro": "شكرًا لانضمامك إلى MelmanStock. أصبحت لديك الأدوات لمتابعة الأسواق واتخاذ قرارات أذكى.",
       "featuresLabel": "إليك ما يمكنك فعله الآن:",
       "featureWatchlist": "أنشئ قائمة متابعة لتتابع أسهمك المفضلة",
       "featureSearch": "ابحث عن أي سهم بـ ⌘K وافتحه في تبويب",
@@ -319,11 +319,11 @@
       "initiative": "مبادرة من Open Dev Society"
     },
     "resetPassword": {
-      "subject": "أعد تعيين كلمة مرور OpenStock",
+      "subject": "أعد تعيين كلمة مرور MelmanStock",
       "heading": "أعد تعيين كلمة المرور",
       "greeting": "مرحبًا {name}،",
       "greetingNoName": "مرحبًا،",
-      "body": "وصلنا طلب لإعادة تعيين كلمة مرور OpenStock الخاصة بك. استخدم الزر أدناه لاختيار كلمة مرور جديدة.",
+      "body": "وصلنا طلب لإعادة تعيين كلمة مرور MelmanStock الخاصة بك. استخدم الزر أدناه لاختيار كلمة مرور جديدة.",
       "cta": "استعادة كلمة المرور",
       "ignore": "إن لم تطلب ذلك، يمكنك تجاهل هذه الرسالة بأمان.",
       "text": "أعد تعيين كلمة المرور: {url}"
@@ -348,11 +348,11 @@
       "calloutTitleBelow": "انخفض السعر",
       "calloutBodyBelow": "نزل {symbol} تحت سعرك المستهدف. قد يكون وقتًا مناسبًا للشراء.",
       "cta": "افتح لوحة الأسواق",
-      "footer": "تصلك هذه الرسالة لأنك مشترك في تحديثات أخبار OpenStock."
+      "footer": "تصلك هذه الرسالة لأنك مشترك في تحديثات أخبار MelmanStock."
     }
   },
   "Sidebar": {
-    "homeAria": "لوحة OpenStock",
+    "homeAria": "لوحة MelmanStock",
     "searchStocks": "ابحث عن الأسهم",
     "overview": "نظرة عامة",
     "watchlist": "قائمة المتابعة",

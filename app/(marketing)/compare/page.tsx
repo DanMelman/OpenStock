@@ -4,7 +4,7 @@ import PageHero from '@/components/marketing/PageHero';
 import { GUIDES } from '@/lib/seo/comparisons';
 import { siteUrl } from '@/lib/seo/site';
 
-const title = 'Guides | OpenStock';
+const title = 'Guides | MelmanStock';
 const description = 'What OpenStock is and is not: an open-source stock tracker with TradingView charts, a watchlist, email alerts, and self-hosting. Honest comparisons, no account required.';
 
 export function generateMetadata(): Metadata {
@@ -13,7 +13,7 @@ export function generateMetadata(): Metadata {
         title,
         description,
         alternates: { canonical: url },
-        openGraph: { title, description, url, siteName: 'OpenStock', type: 'website' },
+        openGraph: { title, description, url, siteName: 'MelmanStock', type: 'website' },
         twitter: { card: 'summary', title, description },
     };
 }

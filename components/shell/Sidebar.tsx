@@ -1,7 +1,7 @@
 'use client';
 
+import BrandLogo from "@/components/BrandLogo";
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { BookOpen, Code2, Heart, Info, LayoutDashboard, LifeBuoy, LogOut, Search, Star } from "lucide-react";
@@ -38,7 +38,7 @@ const Sidebar = ({ user, watchlist }: SidebarProps) => {
     return (
         <aside className="sidebar">
             <Link href="/dashboard" className="px-2 pt-1 pb-2" aria-label={t('homeAria')}>
-                <Image src="/assets/images/logo.png" alt="OpenStock" width={150} height={38} priority />
+                <BrandLogo />
             </Link>
 
             <button type="button" onClick={openSearch} className="side-cta">

@@ -6,7 +6,7 @@ import IconCard from '@/components/marketing/IconCard';
 import { GOOD_FIRST_ISSUES_URL, REPO_URL } from '@/lib/constants';
 
 export const metadata = {
-    title: 'About | OpenStock',
+    title: 'About | MelmanStock',
     description: 'The story behind OpenStock and the Open Dev Society.',
 };
 

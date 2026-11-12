@@ -6,27 +6,27 @@
 /*
  * Design language: dashboard-craft (floated shell, dark chrome, browser tabs,
  * hatch shells, bento tiles) in a dark warm workspace.
- * Two hues carry everything: neutral hue 95 (warm) and accent hue 176 (OpenStock teal).
+ * Two hues carry everything: neutral hue 275 (cool slate) and accent hue 292 (MelmanStock violet).
  * Up/down share one lightness (0.70) and chroma % so neither shouts louder.
  */
 :root {
-    --page:        oklch(0.13 0.006 95);    /* near-black behind the floated app */
-    --side:        oklch(0.165 0.007 95);   /* sidebar + tab chrome */
-    --frame:       oklch(0.185 0.007 95);   /* hatch shell frame (recessed) */
-    --canvas:      oklch(0.205 0.007 95);   /* workspace; active tab = canvas */
-    --card:        oklch(0.235 0.008 95);   /* inner card (raised) */
-    --hover:       oklch(0.27 0.008 95);
-    --line:        oklch(0.29 0.008 95);
-    --line-strong: oklch(0.36 0.01 95);
-    --text:        oklch(0.95 0.006 95);
-    --muted:       oklch(0.74 0.012 95);
-    --faint:       oklch(0.62 0.012 95);
+    --page:        oklch(0.13 0.006 275);    /* near-black behind the floated app */
+    --side:        oklch(0.165 0.007 275);   /* sidebar + tab chrome */
+    --frame:       oklch(0.185 0.007 275);   /* hatch shell frame (recessed) */
+    --canvas:      oklch(0.205 0.007 275);   /* workspace; active tab = canvas */
+    --card:        oklch(0.235 0.008 275);   /* inner card (raised) */
+    --hover:       oklch(0.27 0.008 275);
+    --line:        oklch(0.29 0.008 275);
+    --line-strong: oklch(0.36 0.01 275);
+    --text:        oklch(0.95 0.006 275);
+    --muted:       oklch(0.74 0.012 275);
+    --faint:       oklch(0.62 0.012 275);
 
-    --brand:        oklch(0.80 0.13 176);   /* fills + icons */
-    --brand-strong: oklch(0.72 0.12 176);
-    --brand-ink:    oklch(0.85 0.12 176);   /* the only brand colour allowed as text */
-    --brand-soft:   oklch(0.31 0.05 176);   /* brand as a fill behind text */
-    --on-brand:     oklch(0.22 0.04 176);
+    --brand:        oklch(0.80 0.13 292);   /* fills + icons */
+    --brand-strong: oklch(0.72 0.12 292);
+    --brand-ink:    oklch(0.85 0.12 292);   /* the only brand colour allowed as text */
+    --brand-soft:   oklch(0.31 0.05 292);   /* brand as a fill behind text */
+    --on-brand:     oklch(0.22 0.04 292);
 
     --up:        oklch(0.70 0.164 150);
     --up-soft:   oklch(0.30 0.055 150);
@@ -108,25 +108,25 @@
 /* Legacy utility scales, repointed so older pages (about, help, terms, api-docs)
    pick up the warm palette without a rewrite. */
 @theme {
-    --color-gray-50:  oklch(0.97 0.004 95);
-    --color-gray-100: oklch(0.95 0.006 95);
-    --color-gray-200: oklch(0.90 0.007 95);
-    --color-gray-300: oklch(0.83 0.009 95);
-    --color-gray-400: oklch(0.80 0.01 95);
-    --color-gray-500: oklch(0.66 0.012 95);
-    --color-gray-600: oklch(0.36 0.01 95);
-    --color-gray-700: oklch(0.27 0.008 95);
-    --color-gray-800: oklch(0.205 0.007 95);
-    --color-gray-900: oklch(0.13 0.006 95);
-    --color-gray-950: oklch(0.10 0.005 95);
+    --color-gray-50:  oklch(0.97 0.004 275);
+    --color-gray-100: oklch(0.95 0.006 275);
+    --color-gray-200: oklch(0.90 0.007 275);
+    --color-gray-300: oklch(0.83 0.009 275);
+    --color-gray-400: oklch(0.80 0.01 275);
+    --color-gray-500: oklch(0.66 0.012 275);
+    --color-gray-600: oklch(0.36 0.01 275);
+    --color-gray-700: oklch(0.27 0.008 275);
+    --color-gray-800: oklch(0.205 0.007 275);
+    --color-gray-900: oklch(0.13 0.006 275);
+    --color-gray-950: oklch(0.10 0.005 275);
 
-    --color-teal-300: oklch(0.88 0.10 176);
-    --color-teal-400: oklch(0.85 0.12 176);
-    --color-teal-500: oklch(0.80 0.13 176);
-    --color-teal-600: oklch(0.72 0.12 176);
-    --color-teal-700: oklch(0.58 0.10 176);
-    --color-teal-800: oklch(0.42 0.07 176);
-    --color-teal-900: oklch(0.31 0.05 176);
+    --color-teal-300: oklch(0.88 0.10 292);
+    --color-teal-400: oklch(0.85 0.12 292);
+    --color-teal-500: oklch(0.80 0.13 292);
+    --color-teal-600: oklch(0.72 0.12 292);
+    --color-teal-700: oklch(0.58 0.10 292);
+    --color-teal-800: oklch(0.42 0.07 292);
+    --color-teal-900: oklch(0.31 0.05 292);
 
     --color-green-400: oklch(0.74 0.16 150);
     --color-green-500: oklch(0.70 0.164 150);
@@ -273,7 +273,7 @@
         font-weight: 700;
         color: var(--on-brand);
         background: var(--brand);
-        box-shadow: inset 0 1px 0 oklch(1 0 0 / 0.35), 0 6px 18px oklch(0.8 0.13 176 / 0.18);
+        box-shadow: inset 0 1px 0 oklch(1 0 0 / 0.35), 0 6px 18px oklch(0.8 0.13 292 / 0.18);
         transition: background-color 150ms var(--ui-ease), transform 150ms var(--ui-ease);
     }
     .side-cta:hover { background: var(--brand-ink); }
@@ -414,7 +414,7 @@
         padding: var(--shell-pad);
         border-radius: calc(var(--inner-r) + var(--shell-pad));
         background:
-            repeating-linear-gradient(-45deg, oklch(0.4 0.01 95 / 0.22) 0 1px, transparent 1px 5px),
+            repeating-linear-gradient(-45deg, oklch(0.4 0.01 275 / 0.22) 0 1px, transparent 1px 5px),
             var(--frame);
         box-shadow: 0 0 0 1px oklch(1 0 0 / 0.035), 0 6px 18px oklch(0 0 0 / 0.22);
     }
@@ -579,7 +579,7 @@
     .btn-primary {
         color: var(--on-brand);
         background: var(--brand);
-        box-shadow: inset 0 1px 0 oklch(1 0 0 / 0.35), 0 6px 18px oklch(0.8 0.13 176 / 0.16);
+        box-shadow: inset 0 1px 0 oklch(1 0 0 / 0.35), 0 6px 18px oklch(0.8 0.13 292 / 0.16);
     }
     .btn-primary:hover:not(:disabled) { background: var(--brand-ink); }
     .btn-ghost {
@@ -587,7 +587,7 @@
         box-shadow: inset 0 0 0 1px var(--line);
     }
     .btn-ghost:hover:not(:disabled) { background: var(--hover); color: var(--text); }
-    .btn-ghost.is-on { color: var(--brand-ink); box-shadow: inset 0 0 0 1px oklch(0.8 0.13 176 / 0.35); background: var(--brand-soft); }
+    .btn-ghost.is-on { color: var(--brand-ink); box-shadow: inset 0 0 0 1px oklch(0.8 0.13 292 / 0.35); background: var(--brand-soft); }
 
     .icon-btn {
         display: grid;
@@ -652,7 +652,7 @@
         height: 34px;
         overflow: hidden;
         border-radius: 999px;
-        background: oklch(0.96 0.004 95);
+        background: oklch(0.96 0.004 275);
         color: var(--on-brand);
         font-weight: 700;
         font-size: 13px;
@@ -708,7 +708,7 @@
 @layer utilities {
     .yellow-btn {
         @apply h-12 cursor-pointer rounded-[11px] bg-brand text-on-brand font-bold text-base disabled:opacity-50 hover:bg-brand-ink active:scale-[0.97] transition-[background-color,transform] duration-150;
-        box-shadow: inset 0 1px 0 oklch(1 0 0 / 0.35), 0 6px 18px oklch(0.8 0.13 176 / 0.16);
+        box-shadow: inset 0 1px 0 oklch(1 0 0 / 0.35), 0 6px 18px oklch(0.8 0.13 292 / 0.16);
     }
     .auth-layout {
         @apply flex flex-col justify-between lg:flex-row h-dvh bg-page relative overflow-hidden;
