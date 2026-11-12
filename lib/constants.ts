@@ -58,15 +58,15 @@ export const marketOverviewConfig = (groups: SymbolGroup[], locale: Locale = 'en
     largeChartUrl: '',
     isTransparent: true,
     showFloatingTooltip: true,
-    plotLineColorGrowing: '#47d9bb', // brand teal (oklch 0.80 0.13 176)
-    plotLineColorFalling: '#47d9bb',
+    plotLineColorGrowing: '#c0aeff', // brand violet (oklch 0.80 0.13 292)
+    plotLineColorFalling: '#c0aeff',
     gridLineColor: 'rgba(240, 243, 250, 0)',
-    scaleFontColor: '#adaba3', // --muted
-    belowLineFillColorGrowing: 'rgba(71, 217, 187, 0.12)',
-    belowLineFillColorFalling: 'rgba(71, 217, 187, 0.12)',
-    belowLineFillColorGrowingBottom: 'rgba(71, 217, 187, 0)',
-    belowLineFillColorFallingBottom: 'rgba(71, 217, 187, 0)',
-    symbolActiveColor: 'rgba(71, 217, 187, 0.08)',
+    scaleFontColor: '#a8aab3', // --muted
+    belowLineFillColorGrowing: 'rgba(192, 174, 255, 0.12)',
+    belowLineFillColorFalling: 'rgba(192, 174, 255, 0.12)',
+    belowLineFillColorGrowingBottom: 'rgba(192, 174, 255, 0)',
+    belowLineFillColorFallingBottom: 'rgba(192, 174, 255, 0)',
+    symbolActiveColor: 'rgba(192, 174, 255, 0.08)',
     tabs: groups.map(({ title, symbols }) => ({ title, symbols: symbols.map(([s, d]) => ({ s, d })) })),
     support_host: 'https://www.tradingview.com',
     showSymbolLogo: true,
@@ -153,7 +153,7 @@ export const CANDLE_CHART_WIDGET_CONFIG = (symbol: string, locale: Locale = 'en'
     symbol: symbol.toUpperCase(),
     theme: 'dark',
     timezone: 'exchange',
-    backgroundColor: '#1f1e1a', // --card
+    backgroundColor: '#1d1e22', // --card
     gridColor: 'rgba(255, 255, 255, 0.04)',
     watchlist: [],
     withdateranges: false,

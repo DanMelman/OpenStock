@@ -1,3 +1,4 @@
+import BrandLogo from "@/components/BrandLogo";
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
@@ -29,7 +30,7 @@ const Layout = async ({ children }: { children : React.ReactNode }) => {
         <main className="auth-layout">
             <section className="auth-left-section scrollbar-hide-default">
                 <Link href="/" className="auth-logo flex items-center gap-2">
-                    <Image src="/assets/images/logo.png" alt="OpenStock" width={140} height={35} priority />
+                    <BrandLogo />
                 </Link>
 
                 <div className="pb-6 lg:pb-8 flex-1">

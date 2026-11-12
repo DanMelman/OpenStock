@@ -299,17 +299,17 @@
   },
   "Emails": {
     "common": {
-      "logoAlt": "OpenStock Logo",
+      "logoAlt": "MelmanStock Logo",
       "unsubscribe": "Unsubscribe",
-      "visitOpenstock": "Visit OpenStock"
+      "visitOpenstock": "Visit MelmanStock"
     },
     "welcome": {
-      "subject": "Welcome to Openstock - your open-source stock market toolkit!",
-      "text": "Thanks for joining Openstock, an initiative by open dev society",
-      "title": "Welcome to OpenStock",
-      "dashboardAlt": "OpenStock Dashboard Preview",
+      "subject": "Welcome to MelmanStock - your stock market toolkit!",
+      "text": "Thanks for joining MelmanStock",
+      "title": "Welcome to MelmanStock",
+      "dashboardAlt": "MelmanStock Dashboard Preview",
       "heading": "Welcome aboard {name}",
-      "fallbackIntro": "Thanks for joining Openstock. You now have the tools to track markets and make smarter moves.",
+      "fallbackIntro": "Thanks for joining MelmanStock. You now have the tools to track markets and make smarter moves.",
       "featuresLabel": "Here's what you can do right now:",
       "featureWatchlist": "Set up your watchlist to follow your favorite stocks",
       "featureSearch": "Search any stock with ⌘K and open it as a tab",
@@ -319,11 +319,11 @@
       "initiative": "Initiative by Open Dev Society"
     },
     "resetPassword": {
-      "subject": "Reset your Openstock password",
+      "subject": "Reset your MelmanStock password",
       "heading": "Reset your password",
       "greeting": "Hi {name},",
       "greetingNoName": "Hi there,",
-      "body": "We received a request to reset your Openstock password. Use the button below to choose a new one.",
+      "body": "We received a request to reset your MelmanStock password. Use the button below to choose a new one.",
       "cta": "Reset password",
       "ignore": "If you did not request this, you can safely ignore this email.",
       "text": "Reset your password: {url}"
@@ -348,11 +348,11 @@
       "calloutTitleBelow": "Price Dropped",
       "calloutBodyBelow": "{symbol} dropped below your target price. This might be a good time to buy.",
       "cta": "View Dashboard",
-      "footer": "You're receiving this because you subscribed to Openstock news updates."
+      "footer": "You're receiving this because you subscribed to MelmanStock news updates."
     }
   },
   "Sidebar": {
-    "homeAria": "OpenStock dashboard",
+    "homeAria": "MelmanStock dashboard",
     "searchStocks": "Search stocks",
     "overview": "Overview",
     "watchlist": "Watchlist",

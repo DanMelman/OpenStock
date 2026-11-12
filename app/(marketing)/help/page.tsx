@@ -6,7 +6,7 @@ import IconCard from '@/components/marketing/IconCard';
 import { DISCORD_URL, REPO_URL } from '@/lib/constants';
 
 export const metadata: Metadata = {
-    title: 'Help | OpenStock',
+    title: 'Help | MelmanStock',
     description: 'Community-driven support for OpenStock. No paywalls, just help.',
 };
 

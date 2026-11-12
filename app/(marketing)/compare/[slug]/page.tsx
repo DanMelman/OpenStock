@@ -21,15 +21,15 @@ export function generateStaticParams(): Params[] {
 export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
     const { slug } = await params;
     const guide = findGuide(slug);
-    if (!guide) return { title: 'Guide not found | OpenStock', robots: { index: false, follow: false } };
+    if (!guide) return { title: 'Guide not found | MelmanStock', robots: { index: false, follow: false } };
 
-    const title = `${guide.title} | OpenStock`;
+    const title = `${guide.title} | MelmanStock`;
     const url = `${siteUrl()}/compare/${guide.slug}`;
     return {
         title,
         description: guide.description,
         alternates: { canonical: url },
-        openGraph: { title, description: guide.description, url, siteName: 'OpenStock', type: 'article' },
+        openGraph: { title, description: guide.description, url, siteName: 'MelmanStock', type: 'article' },
         twitter: { card: 'summary', title, description: guide.description },
     };
 }

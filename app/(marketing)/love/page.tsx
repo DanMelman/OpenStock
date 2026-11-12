@@ -88,7 +88,7 @@ const MarqueeRow = ({ items, reverse }: { items: WallItem[]; reverse?: boolean }
                         href="/sponsor#tiers"
                         tabIndex={copy > 0 ? -1 : undefined}
                         className="mr-3 flex h-16 shrink-0 items-center rounded-[14px] px-5 text-[13px] font-semibold text-faint transition-colors hover:text-brand-ink"
-                        style={{ backgroundImage: 'repeating-linear-gradient(-45deg, oklch(0.4 0.01 95 / 0.22) 0 1px, transparent 1px 5px)', boxShadow: 'inset 0 0 0 1px var(--line)' }}
+                        style={{ backgroundImage: 'repeating-linear-gradient(-45deg, oklch(0.4 0.01 275 / 0.22) 0 1px, transparent 1px 5px)', boxShadow: 'inset 0 0 0 1px var(--line)' }}
                     >
                         Your name here
                     </Link>

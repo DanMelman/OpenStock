@@ -20,7 +20,7 @@ export type SponsorTierId = 'backer' | 'supporter' | 'company' | 'partner';
 export const TIER_COLOR: Record<SponsorTierId, string> = {
     backer: 'oklch(0.72 0.11 50)',
     supporter: 'oklch(0.72 0.12 250)',
-    company: 'oklch(0.8 0.13 176)',
+    company: 'oklch(0.8 0.13 292)',
     partner: 'oklch(0.72 0.14 300)',
 };
 export const tierBorder = (tier: SponsorTierId) => `color-mix(in oklch, ${TIER_COLOR[tier]} 55%, transparent)`;

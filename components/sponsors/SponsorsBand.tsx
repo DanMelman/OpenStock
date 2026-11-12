@@ -32,7 +32,7 @@ const OpenSlot = ({ tier, label }: { tier: SponsorTierId; label: string }) => (
     <Link
         href="/sponsor#tiers"
         className="flex h-14 min-w-[140px] items-center justify-center rounded-[12px] px-5 text-[13px] font-semibold text-faint transition-colors hover:text-brand-ink"
-        style={{ backgroundImage: 'repeating-linear-gradient(-45deg, oklch(0.4 0.01 95 / 0.22) 0 1px, transparent 1px 5px)', ...ring(tier), outlineStyle: 'dashed' }}
+        style={{ backgroundImage: 'repeating-linear-gradient(-45deg, oklch(0.4 0.01 275 / 0.22) 0 1px, transparent 1px 5px)', ...ring(tier), outlineStyle: 'dashed' }}
     >
         {label}
     </Link>

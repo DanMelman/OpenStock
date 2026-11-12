@@ -102,7 +102,7 @@ export default async function LandingPage() {
                         Markets, minus<br />the paywall.
                     </h1>
                     <p className="mt-5 max-w-xl text-[17px] leading-relaxed text-muted-foreground">
-                        OpenStock is an open-source alternative to expensive market platforms. Track prices, watch the whole market and dig into
+                        MelmanStock is a personal build of OpenStock, the open-source alternative to expensive market platforms. Track prices, watch the whole market and dig into
                         company insights, built openly, for everyone.
                     </p>
                     <div className="mt-8 flex flex-wrap items-center gap-2">

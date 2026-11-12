@@ -26,8 +26,8 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "OpenStock",
-  description: "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+  title: "MelmanStock",
+  description: "MelmanStock, built on the open-source OpenStock, is an alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
 };
 
 export default function RootLayout({

@@ -4,7 +4,7 @@ import PageHero from '@/components/marketing/PageHero';
 import SectionHead from '@/components/marketing/SectionHead';
 
 export const metadata: Metadata = {
-    title: 'Terms of Service | OpenStock',
+    title: 'Terms of Service | MelmanStock',
     description: 'Fair, transparent, and open terms for our community.',
 };
 
