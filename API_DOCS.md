@@ -110,3 +110,25 @@ Our background jobs are defined in `lib/inngest/functions.ts`.
 <div align="center">
   <sub>Documentation © Open Dev Society. Built with ❤️ for the Open Source Community.</sub>
 </div>
+
+## 📈 Indicators endpoint
+
+`GET /api/indicators?symbol=STX` with the header `x-api-key: <INDICATORS_API_KEY>`. Without the header, or with a wrong key, it answers `401`.
+
+Computed from a year of daily closes (Yahoo Finance daily chart; Finnhub's free plan has no daily candles). Today's bar is ignored while the market is open, so every value is for the last completed session.
+
+```json
+{
+  "symbol": "STX", "source": "yahoo", "sourceSymbol": "STX", "currency": "USD",
+  "lastClose": 101.23, "lastCloseDate": "2026-11-17",
+  "rsi14": 41.87,
+  "bollinger": { "period": 20, "stdDevs": 2, "upper": 110.4, "middle": 104.1, "lower": 97.8 },
+  "percentFromLowerBand": 3.51,
+  "closesUsed": 250
+}
+```
+
+- RSI(14) uses Wilder smoothing over the whole year; Bollinger uses the 20-day SMA and population standard deviation.
+- `percentFromLowerBand` is `(lastClose - lower) / lower * 100`: negative means below the band.
+- Fewer than 15 closes (RSI) or 20 (Bollinger) gives `422 insufficient_data` and no values at all.
+- Symbols: US tickers as is (`STX`, `NASDAQ:STX`), Tel Aviv and other Yahoo symbols with their suffix (`TEVA.TA`), `TADAWUL:2222`, `GPW:PKN`.
